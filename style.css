@@ -1,0 +1,237 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Montserrat", sans-serif;
+}
+body{
+    display: flex;
+    flex-direction: column;
+    
+}
+.topp{
+    display: flex;
+    justify-content: space-between;
+    width: 96%;
+    margin: 0 auto;
+    padding: 2rem;
+    padding-right: 4rem;
+}
+.topp a{
+    text-decoration: none;
+    color: black;
+}
+.humberger{
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+}
+.humberger span{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.humberger i{
+    font-size: 1.6rem;
+    position: absolute;
+    right: 20px;
+    top: 0;
+    padding: 20px;
+    background:  rgba(90, 176, 241, 0.969);
+    color: white;
+    border-bottom-right-radius: 40%;
+    border-bottom-left-radius: 40%;
+}
+.cheng-money{
+    position: absolute;
+    right: 0;
+    top: 12%;
+    height: 50px;
+    background: rgba(90, 176, 241, 0.969);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    padding: 20px;
+    border-radius: 10px;
+   transition:tranform 0.4s;
+ display: none;
+   
+}
+.addd{
+    display: flex;
+}
+.cheng-money input{
+    width: 60%px;
+    outline: none;
+    padding: 9px;
+    height: 25px;
+    font-size: 1rem;
+    border: none;
+    border-radius: 4px;
+    font-weight: 600;
+}
+.cheng-money button{
+    border: none;
+    padding: 9px;
+    background: rgba(255, 99, 71, 0.786) !important;
+    color: white;
+    border-radius: 5px;
+    font-weight: 600;
+}
+.grey{
+    color: gray;
+    font-weight: 600;
+    font-size: 1.2rem;
+}
+.container{
+    width: min(90%,1400px);
+    margin: 80px auto;
+    /* background: rgba(173, 173, 173, 0.537); */
+    border: 1px solid gray;
+    border-radius: 10px;
+    padding: 1rem;
+    display: flex;
+    flex-direction:column ;
+    gap: 2rem;
+}
+form{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+form input{
+    height: 40px ;
+    width:240px;
+    padding: 10px 9px;
+    outline: none;
+    border: none;
+    background: #d9d9d9d8;
+    border-radius: 5px;
+    font-size: 1rem;
+}
+
+form button{
+    padding: 8px 2.4rem;
+    border: none;
+    background: rgba(90, 176, 241, 0.969);
+    font-size: 1rem;
+    color: white;
+
+}
+#listItems{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+/* #listItems li{
+    display: flex;
+    gap: 2rem;
+    height: 70px;
+    align-items: center;
+    background: rgba(188, 184, 184, 0.507);
+    padding: 10px;
+    border-radius: 7px;
+} */
+
+.content{
+    flex: 1 1 0%;
+    
+}
+.content{
+    display: flex;
+  display: grid;
+  grid-template-columns: repeat(5,1fr);
+  align-items: center;
+}
+.content p{
+    grid-column: 1/span 3;
+   
+}
+.actions button{
+    padding: 9px 1rem;
+}
+
+
+.header li{
+    list-style: none;
+   display: grid;
+   grid-template-columns: repeat(10, 1fr);
+   background: #bde0fe;
+   padding: 10px 5px;
+   border-radius: 6px;
+   font-size: 17px;
+}
+.header li span{
+    text-align: center;
+    /* border: 1px solid white; */
+}
+.header li .item{
+    grid-column:2/span 3 ;
+    text-align: start;
+    padding: 0 4px;
+}
+.header li .acts{
+    grid-column:9/span 10 ;
+}
+
+
+
+
+#listItems li{
+    list-style: none;
+   display: grid;
+   grid-template-columns: repeat(10,1fr);
+   background: transparent;
+   padding: 10px 5px;
+   border-radius: 6px;
+   font-size: 17px;
+   align-items: center;
+}
+
+#listItems li span{
+    text-align: center;
+    border: 1px solid white;
+    font-size: 19px;
+    /* font-weight: 600; */
+}
+#listItems li .item{
+    grid-column:2/span 3 ;
+    text-align: start;
+    padding: 0 4px;
+}
+#listItems li .actions{
+    grid-column:9/span 10 ;
+}
+#listItems li .actions button{
+    background: #81b3de;
+    border: none;
+    color: white;
+    border-radius: 5px;
+    font-size: 1rem;
+   
+}
+.delete{
+    background: rgba(255, 99, 71, 0.983) !important;
+    color: white;
+    border: none;
+    font-size: 1rem;
+};
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ----------------------------home---------------------------- */
+
